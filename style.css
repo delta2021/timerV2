@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: linear-gradient(to right bottom,
+    rgba(126, 213, 111, 0.8),
+    rgba(40, 180, 133, 0.8));
+}
+
+.timer {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+
+
+.circle {
+    stroke-width: 15;
+    stroke: #f4f4f4;
+    fill: transparent;
+    transform-box: fill-box;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    
+}
+
+
+.controls {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+  
+
+}
+
+.btn-container {
+   display: flex;
+   width: 30%;
+   justify-content: center;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    font-size: 30px;  
+   
+}
+
+.btn:first-child {
+    margin-right: 20px;
+}
+
+.btn i{
+    color: #e8e4e1;
+}
+
+
+.duration-input {
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+}
